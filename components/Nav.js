@@ -20,7 +20,7 @@ const Navbar = () => {
       <div onClick={handleNav} className='block md:hidden z-40'>
           {nav ? <AiOutlineClose size={30} color="white"/> : <AiOutlineMenu size={30} color="black"/>}
       </div> 
-      <div className={nav ? 'fixed flex flex-col text-2xl justify-center gap-60 items-center inset-0 w-[100%] h-full bg-gray-700 ease-in-out duration-500 text-white z-1' : 'ease-in-out duration-500 fixed top-[-100%]'}>
+      <div className={nav ? 'fixed flex flex-col text-2xl justify-center gap-60 items-center inset-0 w-[100%] h-full bg-gray-700 ease-in-out duration-500 text-white z-10' : 'ease-in-out duration-500 fixed top-[-100%]'}>
         <h1 className='text-3xl font-bold text-[#00df9a]'>Teise.</h1>
         <ul className="flex flex-col gap-10 tracking-wider">
           <li onClick={handleNav} className='font-semibold '><Link href="/">home.</Link></li>
