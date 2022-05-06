@@ -21,7 +21,7 @@ export default function Home() {
       </button>
     </div>
     <section className="h-screen flex flex-col items-center justify-center bg-[#0D0C11]" id="more">
-    <iframe className="p-3 w-[50%]" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJmU7_bZU530cRmdotr1yLTA8&key=AIzaSyBIhlGPoxNRyTqLtFhMQ5wjJ7BD_gMoJBA"></iframe>
+    <iframe className="p-3 w-[100%] md:w-[50%] h-[25%]" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJmU7_bZU530cRmdotr1yLTA8&key=AIzaSyBIhlGPoxNRyTqLtFhMQ5wjJ7BD_gMoJBA"></iframe>
     <div className="flex flex-col justify-between p-4 leading-normal">
         <h5 className="mb-2 text-2xl font-bold tracking-tight text-[#e0ffff]">Noteworthy technology acquisitions 2021</h5>
         <hr/>
