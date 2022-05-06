@@ -15,13 +15,12 @@ export default function Home() {
         <p className='md:text-2xl text-xl font-bold text-gray-500 py-3 md:py-10'>We are an <span className="text-black">independant cafe</span> in the heart of the Weald. <br></br>Estd. in Dec 2018.</p>
         <Link href="#more"><button className='transition ease-in-out bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black hover:text-white hover:bg-[#03ae79]'>Pop in!</button></Link>
       </div>
-      <div className="spacer"></div><div className="spacer"></div><div className="spacer"></div><div className="spacer"></div><div className="spacer"></div>
+      <div className="spacer hidden md:block"></div><div className="spacer"></div><div className="spacer"></div><div className="spacer"></div><div className="spacer"></div>
       <button className="animate-bounce flex self-center z-0">
         <Link href="#more"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 13l-7 7-7-7m14-8l-7 7-7-7"></path></svg></Link>
       </button>
     </div>
-    <section className="h-screen flex items-start justify-center" id="more">
-    <a href="#" className="flex flex-col items-center bg-black rounded-lg border shadow-md md:flex-row md:max-w-xl">
+    <section className="h-screen flex flex-col items-center justify-center bg-[#0D0C11]" id="more">
     <iframe className="p-3 min-w-[20%] max-w-200" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJmU7_bZU530cRmdotr1yLTA8&key=AIzaSyBIhlGPoxNRyTqLtFhMQ5wjJ7BD_gMoJBA"></iframe>
     <div className="flex flex-col justify-between p-4 leading-normal">
         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
