@@ -24,7 +24,7 @@ export default function Home() {
     <iframe className="p-3 min-w-[20%] max-w-200" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJmU7_bZU530cRmdotr1yLTA8&key=AIzaSyBIhlGPoxNRyTqLtFhMQ5wjJ7BD_gMoJBA"></iframe>
     <div className="flex flex-col justify-between p-4 leading-normal">
         <h5 className="mb-2 text-2xl font-bold tracking-tight text-[#e0ffff]">Noteworthy technology acquisitions 2021</h5>
-        <hr>
+        <hr/>
         <p className="mb-3 font-normal">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
     </div>
     </section>
