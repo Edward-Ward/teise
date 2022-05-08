@@ -20,12 +20,16 @@ export default function Home() {
         <Link href="#more"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 13l-7 7-7-7m14-8l-7 7-7-7"></path></svg></Link>
       </button>
     </div>
-    <section className="h-screen flex flex-col items-center justify-center bg-[#0D0C11]" id="more">
-    <iframe className="p-3 w-[100%] md:w-[50%] h-[25%]" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJmU7_bZU530cRmdotr1yLTA8&key=AIzaSyBIhlGPoxNRyTqLtFhMQ5wjJ7BD_gMoJBA"></iframe>
-    <div className="flex flex-col justify-between p-4 leading-normal">
-        <h5 className="mb-2 text-2xl font-bold tracking-tight text-[#e0ffff]">Noteworthy technology acquisitions 2021</h5>
+    <section className="h-screen flex flex-col items-center bg-[#0D0C11]" id="more">
+    <iframe className="p-3 w-[100%] md:w-[50%] h-[35%]"src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJmU7_bZU530cRmdotr1yLTA8&key=AIzaSyBIhlGPoxNRyTqLtFhMQ5wjJ7BD_gMoJBA"></iframe>
+    <div className="w-[100%] md:w-[50%] flex flex-col justify-between p-4 leading-normal">
+        <h5 className="flex justify-between mb-2 text-2xl font-bold tracking-tight text-[#e0ffff]">Pop in today! <span className="text-gray-500">Or contact us <span className="pl-2 md:pl-5 text-[#00df9a]">↓</span></span></h5>
         <hr/>
-        <p className="mb-3 font-normal text-[#9db3b3]">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+        <div className="flex justify-between tracking-wide">
+          <p className="pt-8 mb-3 font-normal text-[#9db3b3]">Forge House, The Broadway, <br/>Lamberhurst, Tunbridge Wells,<br/><span className="text-[#e0ffff] text-bold tracking-wider underline decoration-inherit underline-offset-4">TN38DA</span></p>
+          <p className="pt-8 text-gray-500 text-bold"><span className="text-[#e0ffff]">forgehousecoffee</span><span className="text-[#00df9a]">@</span>gmail<span className="text-[#00df9a]">.</span>com</p>
+        </div>
+        
     </div>
     </section>
   </div>
