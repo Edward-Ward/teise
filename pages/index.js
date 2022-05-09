@@ -27,7 +27,7 @@ export default function Home() {
         <hr/>
         <div className="flex justify-between tracking-wide">
           <p className="pt-8 mb-3 font-normal text-[#9db3b3]">Forge House, The Broadway, <br/>Lamberhurst, Tunbridge Wells,<br/><span className="text-[#e0ffff] text-bold tracking-wider underline decoration-inherit underline-offset-4">TN38DA</span></p>
-          <p className="pt-8 text-gray-500 text-bold"><span className="text-[#e0ffff]">forgehousecoffee</span><span className="text-[#00df9a]">@</span>gmail<span className="text-[#00df9a]">.</span>com</p>
+          <p className="pt-8 text-gray-500 text-bold"><span className="text-right">forgehousecoffee<br className="md:hidden"></br></span><span className="text-[#00df9a]">@</span>gmail<span className="text-[#00df9a]">.</span>com</p>
         </div>
         
     </div>
