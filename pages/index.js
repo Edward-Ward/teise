@@ -23,11 +23,11 @@ export default function Home() {
     <section className="h-screen flex flex-col items-center bg-[#0D0C11]" id="more">
     <iframe className="p-3 w-[100%] md:w-[50%] h-[35%]"src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJmU7_bZU530cRmdotr1yLTA8&key=AIzaSyBIhlGPoxNRyTqLtFhMQ5wjJ7BD_gMoJBA"></iframe>
     <div className="w-[100%] md:w-[50%] flex flex-col justify-between p-4 leading-normal">
-        <h5 className="flex justify-between mb-2 text-2xl font-bold tracking-tight text-[#e0ffff]">Pop in today! <span className="text-gray-500">Or contact us <span className="pl-2 md:pl-5 text-[#00df9a]">↓</span></span></h5>
+        <h5 className="flex justify-between mb-2 text-2xl font-bold tracking-tight text-[#e0ffff]">Pop in today! <span className="text-gray-500">Or contact us <span className="pl-1 md:pl-5 text-[#00df9a]">↓</span></span></h5>
         <hr/>
         <div className="flex justify-between tracking-wide">
           <p className="pt-8 mb-3 font-normal text-[#9db3b3]">Forge House, The Broadway, <br/>Lamberhurst, Tunbridge Wells,<br/><span className="text-[#e0ffff] text-bold tracking-wider underline decoration-inherit underline-offset-4">TN38DA</span></p>
-          <p className="pt-8 text-gray-500 text-bold"><span className="text-right">forgehousecoffee<br className="md:hidden"></br></span><span className="text-[#00df9a]">@</span>gmail<span className="text-[#00df9a]">.</span>com</p>
+          <p className="pt-8 text-gray-500 text-bold text-right">forgehousecoffee<br className="md:hidden"/><span className="text-[#00df9a]">@</span>gmail<span className="text-[#00df9a]">.</span>com</p>
         </div>
         
     </div>
