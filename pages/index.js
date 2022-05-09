@@ -22,7 +22,7 @@ export default function Home() {
     </div>
     <section className="h-screen flex flex-col items-center bg-[#0D0C11]" id="more">
     <iframe className="p-3 w-[100%] md:w-[50%] h-[35%]"src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJmU7_bZU530cRmdotr1yLTA8&key=AIzaSyBIhlGPoxNRyTqLtFhMQ5wjJ7BD_gMoJBA"></iframe>
-    <div className="w-[100%] md:w-[50%] flex flex-col justify-between p-4 leading-normal">
+    <div className="w-[100%] md:w-[70%] flex flex-col justify-between p-4 leading-normal">
         <h5 className="flex justify-between mb-2 text-2xl font-bold tracking-tight text-[#e0ffff]">Pop in today! <span className="text-gray-500">Or contact us <span className="pl-1 md:pl-5 text-[#00df9a]">↓</span></span></h5>
         <hr/>
         <div className="flex justify-between tracking-wide">
