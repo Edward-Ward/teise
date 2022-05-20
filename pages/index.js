@@ -1,10 +1,14 @@
 import Typed from 'react-typed';
 import Link from 'next/link'
 import { HiOutlineChevronDoubleDown } from 'react-icons/hi'
+import Head from 'next/head'
 
 export default function Home() {
   return (
     <div className='text-black'>
+      <Head>
+        <meta name="google-site-verification" content="FyxBVTR1k8gAMB_MbYKBtRU8s3zzPiFAmAsjWVJ7aDU"/>
+      </Head>
     <div className="flex text-center flex-col justify-center h-screen gap-10">
       <div className='max-w-[800px] mt-[-96px] w-full mx-auto text-center flex flex-col justify-center'>
         <Typed
