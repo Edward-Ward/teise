@@ -14,7 +14,7 @@ const Navbar = () => {
       <h1 className='w-full text-3xl font-bold text-black'><Link href="/">Teise.</Link></h1>
       <ul className='hidden md:flex'>
         <li className='transition ease-in-out text-xl p-6 hover:text-black'><Link href="/">home</Link></li>
-        <li className='transition ease-in-out text-xl p-6 hover:text-black'><Link href="/about">about</Link></li>
+        <li className='transition ease-in-out text-xl p-6 hover:text-black'><Link href="/blog">blog</Link></li>
         <li className='transition ease-in-out text-xl p-6 hover:text-black'><Link href="/menu">menu</Link></li>
       </ul>
       <div onClick={handleNav} className='block md:hidden z-40'>
@@ -24,7 +24,7 @@ const Navbar = () => {
         <h1 className='text-3xl font-bold text-[#00df9a]'>Teise.</h1>
         <ul className="flex flex-col gap-10 tracking-wider">
           <li onClick={handleNav} className='font-semibold '><Link href="/">home.</Link></li>
-          <li onClick={handleNav} className='font-semibold '><Link href="/about">about.</Link></li>
+          <li onClick={handleNav} className='font-semibold '><Link href="/blog">blog.</Link></li>
           <li onClick={handleNav} className='font-semibold '><Link href="/menu">menu.</Link></li>
         </ul>
       </div>
