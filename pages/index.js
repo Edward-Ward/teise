@@ -8,6 +8,7 @@ export default function Home() {
     <div className='text-black'>
       <Head>
         <meta name="google-site-verification" content="FyxBVTR1k8gAMB_MbYKBtRU8s3zzPiFAmAsjWVJ7aDU"/>
+        <meta name="description" content="Teise and Coffee is an Indepenant cafe in the heart of the Weald. TeiseAndCoffee Lamberhurst"/>
       </Head>
     <div className="flex text-center flex-col justify-center h-screen gap-10">
       <div className='max-w-[800px] mt-[-96px] w-full mx-auto text-center flex flex-col justify-center'>
